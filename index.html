@@ -11,37 +11,53 @@
     <main>
         <div id="firstsection">
             <div class="sectiontext">
-                
-                <h1><img src="image/odin-lined.png" alt="odin icon">ODIN</h1>
+                <img src="image/odin-lined.png" alt="odin icon">
+                <span>ODIN</span>
             </div>
         </div>
-        <div>
-            <p>This is not a real online service! You know you need something like this
-                in your life to help you realize your deeepest dreams. <br>
-                Sign up now to get started.
-            </p>
-            <h3>You know you want to.</h3>
-            <div>
+        <div id="secondsection">
+            <div class="description">
+                <p>This is not a real online service! You know you need something <br>
+                    like this in your life to help you realize your deeepest dreams. <br>
+                    Sign up now to get started.
+                </p>
+                <h3>You know you want to.</h3>
+            </div>
+            
+            <div class="formfield">
                 <h3>Let's do this!</h3>
 
                 <form>
-                    <div>
-                        <label for="firstname">FIRST NAME</label><br>
-                        <input type="text" name="firstname" id=""><br>
-                        <label for="lastname">LAST NAME</label><br>
-                        <input type="text" name="lastname" id="">
+                    <div class="formcontent">
+                        <div>
+                            <label for="firstname">FIRST NAME</label><br>
+                            <input type="text" name="firstname" id=""><br>
+                        </div>
+                        <div>
+                            <label for="lastname">LAST NAME</label><br>
+                            <input type="text" name="lastname" id="">
+                        </div>
                     </div>
-                    <div>
-                        <label for="email">EMAIL</label><br>
-                        <input type="email" name="email" id=""><br>
-                        <label for="phone">PHONE NUMBER</label><br>
-                        <input type="tel" name="phone" id="">
+                    <div class="formcontent">
+                        <div>
+                            <label for="email">EMAIL</label><br>
+                            <input type="email" name="email" id=""><br>
+                        </div>
+                        <div>
+                            <label for="phone">PHONE NUMBER</label><br>
+                            <input type="tel" name="phone" id="">
+                        </div>
                     </div>
-                    <div>
-                        <label for="password">PASSWORD</label><br>
-                        <input type="password" name="password" id=""><br>
-                        <label for="passwordConfirm">CONFIRM PASSWORD</label><br>
-                        <input type="password" name="passwordConfirm" id="">
+                    <div class="formcontent">
+                        <div>
+                            <label for="password">PASSWORD</label><br>
+                            <input type="password" name="password" id="" style="border-color: red;"><br>
+                            <i style="color: red;">*Passwords do not match</i>
+                        </div>
+                        <div>
+                            <label for="passwordConfirm">CONFIRM PASSWORD</label><br>
+                            <input type="password" name="passwordConfirm" id="" style="border-color: red;">
+                        </div>
                     </div>
                 </form>
             </div>

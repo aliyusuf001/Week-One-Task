@@ -4,6 +4,7 @@ body{
 }
 main{
     display: flex;
+    height: 1000px;
 }
 #firstsection{
     background: url(image/halie-west-25xggax4bSA-unsplash.jpg);
@@ -12,19 +13,62 @@ main{
     width: 40%;
 }
 .sectiontext{
-    background-color: black;
-    opacity: 0.2;
-    height: 150px;
-    margin-top: 25%;
+    background-color: rgba(000, 000, 000, 0.5);
+    height: 13%;
+    margin-top: 35%;
+    padding: 10px 0 10px 0;
     text-align: center;
+    position: relative;
 }
 .sectiontext img{
     max-width: 100%;
     max-height: 100%;
 
 }
-.sectiontext h1{
+.sectiontext span{
     font-family: Norse;
+    font-size: 80px;
     color: white;
     display: inline;
+}
+#secondsection{
+    width: 60%;
+    background-color: #F9FAFB;
+}
+.description{
+    margin-top: 20%;
+    margin-left: 40px;
+    font-weight: 700;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description h3{
+    margin-bottom: 65px;
+}
+.formfield{
+    margin-bottom: 30px;
+    padding: 5px 0 10px 40px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 5px #DEDFDF;
+}
+.formcontent{
+    display: flex;
+}
+.formcontent div{
+    margin-right: 50px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small ;
+    font-weight: 600;
+}
+.formcontent div input{
+    padding-left: 10px;
+    height: 25px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+.formcontent div input:focus{
+    border: 3px solid blue;
+    box-shadow: 2px 3px #DEDFDF;
 }
