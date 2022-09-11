@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    border: 0;
+}
+main{
+    display: flex;
+}
+#firstsection{
+    background: url(image/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+}
+.sectiontext{
+    background-color: black;
+    opacity: 0.2;
+    height: 150px;
+    margin-top: 25%;
+    text-align: center;
+}
+.sectiontext img{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.sectiontext h1{
+    font-family: Norse;
+    color: white;
+    display: inline;
+}
