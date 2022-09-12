@@ -75,7 +75,7 @@ main{
     border-radius: 5px;
 }
 .formcontent div input:focus{
-    border: 3px solid blue;
+    outline: 1px solid blue;
     box-shadow: 2px 3px #DEDFDF;
 }
 .submitsection{
@@ -128,6 +128,6 @@ main{
     .sectiontext img{
         max-width: 50%;
         max-height: 50%; 
-        
+
     }
 }
