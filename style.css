@@ -2,6 +2,10 @@ body{
     margin: 0;
     border: 0;
 }
+@font-face {
+    font-family: Norse;
+    src: url(Norse-Bold\ \(1\).otf);
+}
 main{
     display: flex;
     height: 1000px;
@@ -18,7 +22,9 @@ main{
     margin-top: 220px;
     padding: 10px 0 10px 0;
     text-align: center;
+    justify-content: center;
     position: relative;
+    display: flex;
 }
 .sectiontext img{
     max-width: 100%;
@@ -26,8 +32,9 @@ main{
 }
 .sectiontext span{
     font-family: Norse;
-    font-size: 80px;
+    font-size: 100px;
     color: white;
+    margin-top: 20px;
     display: inline;
 }
 #secondsection{
@@ -110,8 +117,13 @@ main{
     }
 }
 @media (max-width: 575.98px){
+    .sectiontext{
+        display: block;
+    }
     .sectiontext span{
         display: block;
+        margin-top: 0;
+        font-size: 60px;
     }
     .sectiontext img{
         max-width: 50%;
